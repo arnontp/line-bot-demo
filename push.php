@@ -14,7 +14,7 @@
 	$to = ['akirazuza'];
 
 	$data = [
-		'to' =>[$to],
+		'to' =>$to,
 		'messages' => [$messages],
 	];
 	$post = json_encode($data);
