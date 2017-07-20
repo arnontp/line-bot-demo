@@ -11,10 +11,10 @@
 					'type' => 'text',
 					'text' => 'ประกาศจร้าประกาศ'
 				];
-	$to = {'yoizriders'};
+	$to = ['yoizriders','akirazuza'];
 
 	$data = [
-		'to' =>$to,
+		'to' =>[$to],
 		'messages' => [$messages],
 	];
 	$post = json_encode($data);
