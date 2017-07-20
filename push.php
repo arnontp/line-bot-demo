@@ -5,14 +5,14 @@
 	// Get POST body content
 	$content = file_get_contents('php://input');
 
-	$url = 'https://api.line.me/v2/bot/message/push';
+	$url = 'https://api.line.me/v2/bot/message/multicast';
 
 	$messages = [
 					'type' => 'text',
 					'text' => 'ประกาศจร้าประกาศ'
 				];
 
-
+				
 	$data = [
 		'to' => 'U823b73b58e046e12100d36a78debb9d2',
 		'messages' => [$messages],
