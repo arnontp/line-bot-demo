@@ -11,7 +11,7 @@
 					'type' => 'text',
 					'text' => 'ประกาศจร้าประกาศ'
 				];
-	$to = ['yoizriders','akirazuza'];
+	$to = ['akirazuza'];
 
 	$data = [
 		'to' =>[$to],
