@@ -11,10 +11,10 @@
 					'type' => 'text',
 					'text' => 'ประกาศจร้าประกาศ'
 				];
-
+	$to = ['yoizriders'];
 
 	$data = [
-		'to' =>['U823b73b58e046e12100d36a78debb9d2'],
+		'to' =>$to,
 		'messages' => [$messages],
 	];
 	$post = json_encode($data);
