@@ -4,8 +4,7 @@
 
 	// Get POST body content
 	$content = file_get_contents('php://input');
-	// Parse JSON
-	 
+ 
 	$url = 'https://api.line.me/v2/bot/message/push';
 
 	$messages = [
@@ -15,7 +14,7 @@
 
 
 	$data = [
-		'to' => 'yoizriders',
+		'to' => '@udg1192m',
 		'messages' => [$messages],
 	];
 	$post = json_encode($data);
